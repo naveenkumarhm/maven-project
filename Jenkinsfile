@@ -10,6 +10,7 @@ pipeline {
         sh 'mvn --v'
         sh 'mvn --v'
         sh 'java -version'
+        sh 'git -version'
       }
     }
   }
