@@ -1,8 +1,8 @@
 pipeline {
-  agent any
   tools {
     maven 'M2_HOME'
   }
+  agent any
   stages {
     stage('Build') {
       steps {
