@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo 'Hello'
         sh '/usr/local/src/apache-maven/bin/mvn --v'
-        // sh 'mvn --v'
+        sh 'mvn --v'
         sh 'java -version'
       }
     }
