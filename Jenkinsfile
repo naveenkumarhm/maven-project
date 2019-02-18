@@ -12,11 +12,12 @@ pipeline {
         sh 'java -version'
         sh 'git --version'
         sh 'mvn install'
+        }
         stage('Test'){
            sh 'mvn test'
            sh 'ls'
         }
-      }
+      
     }
   }
 }
