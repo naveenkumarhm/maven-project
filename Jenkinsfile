@@ -11,6 +11,7 @@ pipeline {
         sh 'mvn --v'
         sh 'java -version'
         sh 'git --version'
+        sh ' mvn install'
       }
     }
   }
